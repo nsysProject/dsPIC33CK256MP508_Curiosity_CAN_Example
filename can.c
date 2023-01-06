@@ -168,8 +168,8 @@ void InitializeCAN1(void);
     C1FIFOBAL = (unsigned int) &CanBuffer;
 
     /* Set up the CANFD module for 500Kbps bit rate. */
-    C1NBTCFGH = 0x003E;
-    C1NBTCFGL = 0x0F0F;
+ //   C1NBTCFGH = 0x003E;
+ //   C1NBTCFGL = 0x0F0F;
     
     C1NBTCFGHbits.BRP = 0;      // 1:1 = 40MHz
 // 40MHz/500,000 = 80 TQ.
@@ -317,9 +317,10 @@ void InitializeCAN1(void);
   Remarks:
     None.
  */
-    CANFD_RX_MSGOBJ *rxObj; 
+CANFD_RX_MSGOBJ rxBuffer;
+CANFD_RX_MSGOBJ *rxObj = &rxBuffer; 
+uint8_t data[8];  
 
-    uint8_t data[8];  
   void receiveCAN1 (void)
   {
     /* Get the address of the message buffer to read the received messages.*/   
