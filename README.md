@@ -29,3 +29,8 @@ dsPIC33CK256MP508_Curiosity_CAN_Example describes the hardware connection needed
 - If proper baud rate of CAN bus is used (as understaood with calculation), the communication with CAN bus analyzer does not work.
 
 - Receive is still in polling mode. Interrupt not yet tested.
+
+<h1>Testing of code</h1>	
+- Following picture shows the Code was tested in both transmit and receive mode with CAN bus abalyzer:
+
+![Test window](/hardware/Test.png)
