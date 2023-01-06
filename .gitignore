@@ -1,12 +1,12 @@
-pic32mk_mcm_curiosity_pro.X/.generated_files/
-pic32mk_mcm_curiosity_pro.X/build/
-pic32mk_mcm_curiosity_pro.X/debug/
-pic32mk_mcm_curiosity_pro.X/dist/
-pic32mk_mcm_curiosity_pro.X/nbproject/private/
+CAN_Proj.X/.generated_files/
+CAN_Proj.X/build/
+CAN_Proj.X/debug/
+CAN_Proj.X/dist/
+CAN_Proj.X/nbproject/private/
 
-pic32mk_mcm_curiosity_pro.X/nbproject/Makefile-genesis.properties
-pic32mk_mcm_curiosity_pro.X/nbproject/Makefile-impl.mk
-pic32mk_mcm_curiosity_pro.X/nbproject/Makefile-local-pic32mk_mcm_curiosity_pro.mk
-pic32mk_mcm_curiosity_pro.X/nbproject/Makefile-pic32mk_mcm_curiosity_pro.mk
-pic32mk_mcm_curiosity_pro.X/nbproject/Makefile-variables.mk
-pic32mk_mcm_curiosity_pro.X/nbproject/Package-pic32mk_mcm_curiosity_pro.bash
+CAN_Proj.X/nbproject/Makefile-default.mk
+CAN_Proj.X/nbproject/Makefile-genesis.properties
+CAN_Proj.X/nbproject/Makefile-impl.mk
+CAN_Proj.X/nbproject/Makefile-local-default.mk
+CAN_Proj.X/nbproject/Makefile-variables.mk
+CAN_Proj.X/nbproject/Package-default.bash
